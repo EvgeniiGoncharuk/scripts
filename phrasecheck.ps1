@@ -2,7 +2,7 @@
 (
     [string] $fileName,
     [string] $phrase,
-    [int] $threshold=1
+    [int] $threshold=3
 )
 
 $allText = Get-Content -Path $fileName
